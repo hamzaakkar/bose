@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "GothamBold";
+  font-style: normal;
+  src: url("./font/GothamMedium.ttf") format("truetype");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "GothamBold", "Open Sans";
+}
+ul {
+  list-style: none;
+}
+
+.slick-prev:before {
+  content: url(./slider/imgSlider/prevArrow.png);
+  margin-left: -3rem;
+}
+
+.slick-next:before {
+  content: url(./slider/imgSlider/nextArrow.png);
+  margin-left: 3rem;
+}
+
+.slick-next,
+.slick-prev {
+  top: 40%;
+}
